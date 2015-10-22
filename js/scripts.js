@@ -4,6 +4,7 @@ var pigLatin = function(input) {
     return(input);
     console.log(input);
   } else {
-    alert('no');
+    var input = "this spec intentionally failed"
+    return(input);
   }
 };
