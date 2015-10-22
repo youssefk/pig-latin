@@ -7,11 +7,11 @@ describe('pigLatin', function() {
   });
   it("takes all words that start with one or more consonants, move all of the first consecutive consonants to the end and add 'ay'", function() {
     expect(pigLatin("tree")).to.equal("eetray");
-  });/*
-  it("takes all 'qu' words and moves the qu to the end together", function() {
-    expect(pigLatin("quail")).to.equal(true);
+  });
+  /*it("takes all 'qu' words and moves the qu to the end together", function() {
+    expect(pigLatin("quail")).to.equal("ailqu");
   });
   it("treats the letter y as a consonant for words that start with the letter", function() {
-    expect(pigLatin("yesterday")).to.equal(true);
+    expect(pigLatin("yesterday")).to.equal("esterdayay");
   });*/
 });
