@@ -5,9 +5,9 @@ describe('pigLatin', function() {
   it("fails the spec for all words that do not start with a vowel", function() {
     expect(pigLatin("trunk")).to.equal("");
   });
-  /*it("takes all words that start with one or more consonants, move all of the first consecutive consonants to the end and add 'ay'", function() {
-    expect(pigLatin("tree")).to.equal(true);
-  });
+  it("takes all words that start with one or more consonants, move all of the first consecutive consonants to the end and add 'ay'", function() {
+    expect(pigLatin("tree")).to.equal("eetray");
+  });/*
   it("takes all 'qu' words and moves the qu to the end together", function() {
     expect(pigLatin("quail")).to.equal(true);
   });

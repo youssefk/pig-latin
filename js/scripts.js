@@ -1,10 +1,11 @@
 var pigLatin = function(input) {
+
   if (input.charAt(0).match(/^(a|e|i|o|u)/)) {
-    var input = input.concat("ay");
-    return(input);
+    var output = input.concat("ay");
+    return(output);
     console.log(input);
   } else {
-    var input = "this spec intentionally failed"
-    return(input);
+    var input = "this spec failed"
+    return(output);
   }
 };
